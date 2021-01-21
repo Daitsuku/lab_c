@@ -3,7 +3,7 @@
 
 void main(){
 
-    //system("cls");
+    system("cls");
 
     int c,x,y,z;
 
