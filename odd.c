@@ -1,20 +1,18 @@
 #include<stdio.h>
-
 void main(){
     system("cls");
+    int i, nTerm;
+    printf("Enter number of term: ");
+    scanf("%d",&nTerm);
 
-    int i,n;
-    printf("Enter number here : ");
-    scanf("%d",&n);
-
-    printf("Odd number of %d terms are: \n" ,n);
-
-    for(i=1; i<= 2*n; i++){
-
-        if (i%2 == 0)
+    printf("Odd of %d terms are: \n",nTerm);
+    for(i=1; i<= 2*nTerm ; i++){
+        if(i%2 == 0)
             continue;
         else
-            printf("%d ", i);
+        {
+            printf("%d ",i);
+        }
+        
     }
-
 }
